@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 import urllib.request, json, re
 with urllib.request.urlopen("https://open.fm/radio/api/v2/ofm/stations_slug.json") as url:
     preffered_groups = ['Na Cały Dzień']
